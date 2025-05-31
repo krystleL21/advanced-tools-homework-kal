@@ -92,14 +92,14 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-.content-cop p {
+content-cop p {
     background-color: white;
     margin-bottom: 40px;
     text-align: left;
     display: flex;
     justify-content: right;
 }
-#main-page img {
+main-page img {
 max-width: 635px;
 max-height: 700px;
 }
@@ -124,4 +124,30 @@ max-height: 700px;
 }
 .home-h2 {
   margin-top: 65px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+    line-height: 0.5;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+.pic {
+  display: none;
+}
+  .links {
+    display: flex;
+    justify-content: center;
+    border-style: inset;
+  }
 }
